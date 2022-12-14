@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jomar | Web Developer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+	<nav>
+		<h1>JOMAR</h1>
+		<ul class="navigation">
+
+			<li><a href= "#about"class="nav-link">About</a></li>
+			<li><a href= "#skills"class="nav-link">Skills</a></li>
+			<li><a href= "#projects"class="nav-link">Projects</a></li>
+			<li><a href= "#contact"class="nav-link">Contact</a></li>
+
+		</ul>
+    <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon </button>
+	</nav>
+	<!--Hero Section-->
+	<section class="hero" id= "about">
+		<img src="assets/image/image.png" alt="Jomar" loading= "lazy" class="hero-img">
+
+		<div class="bio animate_animated animate_shakeX">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+
+			    I am Jomar M. Berdejo<br><br>
+			    Aspiring Junior Web Developer and at the same time a student at Eastern Visayas State University Carigara Campus. Proactive and sociable and aiming to earn a Bachelor's Degree in Information Technology. Possessing knowledge of teamwork and project development. Dedicated to working in collaboration. Enthusiastic about website design, development.<br><br>		
+			</p>
+		</div>
+	</section>
+
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Aspiring Junior Web Developer and at the same time a student at Eastern Visayas State University Carigara Campus. Proactive and sociable and aiming to earn a Bachelor's Degree in Information Technology. Possessing knowledge of teamwork and project development. Dedicated to working in collaboration. Enthusiastic about website design, development.
+      </p>
+      <p>
+         I also enjoy doing stuff, especially coding. My interests include understanding new things and solving logical problems. I also learned and understand the significance of the function that HTML and CSS play in designing a website.
+      </p>
+      <p>
+        I also learned and have a little bit knowledge about different programming languages such as Python, JavaScript, C++ and many more.				
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icon/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icon/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icon/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icon/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icon/icons8-react.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icon/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/image/proj-1.png"
+            alt="Higher or Lower Using Python"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Higher or Lower Using Python</h3>
+          <p class="project-details">
+            A simple yet fun program that allows user to  play and guess the exact number ranging from 1 to 1000. This simple project also uses an in-built random module of Python which is used to generate random numbers.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/image/proj-2.png"
+            alt="OOP Implementation Using Python"
+            loading="lazy"
+                    
+            class="project-pic"
+          />
+          <h3 class="project-title">OOP Implementation Using Python</h3>
+          <p class="project-details">
+            A simple program made by me that uses the 4 pillars in OOP concept in Python Programming Language</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/image/proj-3.png"
+            alt="Gallery Using HTML And CSS"
+            loading="lazy"          
+            class="project-pic"
+          />
+          <h3 class="project-title">Gallery Using HTML And CSS</h3>
+          <p class="project-details">
+            This is my recent project that displays different images in gallery format. I only use HTML and CSS to design and build this simple yet attractive project.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw&quot; method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icon/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/a_quilaaa/" target="_blank"
+        ><img
+          src="assets/icon/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/jomar-berdejo-833924252/" target="_blank"
+        ><img
+          src="assets/icon/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/jomarberdejo" target="_blank"
+        ><img src="assets/icon/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      >
+    <a href="#about"><img
+        src="assets/icon/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></a>
+  </i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#" target="_blank"
+          >Jomar M. Berdejo</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js";
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
+    ></script>
+
+
+</body>
+</html>
