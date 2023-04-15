@@ -1,7 +1,7 @@
 /*CSS Particles*/
 
 #particles-js {
-        background-image: url('../image/bg-image5.jpeg'), linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5));
+        background-image: url('bg-image5.jpeg'), linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5));
         background-size: cover;
         background-repeat: no-repeat;
         background-blend-mode: darken;
