@@ -38,8 +38,8 @@ a:hover{
 }
 body{
   font-family: var(--font-family);
-
 }
+
 /*nav-bar*/
 nav{
   position: sticky;
@@ -95,10 +95,12 @@ nav ul li{
   width: 20.5rem;
 }
 .bio{
+  background: transparent;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px var(--primary-shadow);
+  box-shadow: 0px 2px 5px var(--primary-shadow);
+      filter: drop-shadow(3px 2px 4px #121212);
 }
 .bio-title{
     text-align: center;
@@ -131,7 +133,7 @@ nav ul li{
 /*More About*/
 
 .more-about{
-  background-color: black;
+  background: transparent;
   padding:  1rem 6rem;
   color: white;
 
@@ -178,11 +180,12 @@ nav ul li{
   
 }
 .certificates{
-  width: 60%;
-  background-color: black;
+  width: 50%;
+  background-color: transparent;
   margin: auto;
-  padding: 4%;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 2%;
+  box-shadow: 0 3px 5px var(--primary-shadow);
+  filter: drop-shadow(3px 2px 4px #121212);
 }
 .certificate h2{
    color: white;
@@ -228,6 +231,7 @@ nav ul li{
   overflow: hidden;
   margin: 40px;
 }
+
 .project-title{
   text-align:center;
   margin: 10px;
@@ -256,7 +260,7 @@ nav ul li{
   object-position: center;
   margin: 10px;
   display: inline-block;
-  box-shadow: 0px 2px 15px var(--primary-shadow);
+  box-shadow: 0px 2px 5px var(--primary-shadow);
   transition: transform 1s;
 }
 
@@ -382,14 +386,16 @@ footer span{
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 5px var(--secondary-shadow);
+    filter: drop-shadow(3px 2px 4px #121212);
   padding: 20px;
   margin: 10px;
 }
 .project-card {
   background-color: black;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  box-shadow: 0 3px 5px var(--primary-shadow);
+  filter: drop-shadow(3px 2px 4px #121212);
   padding: 20px;
   margin: 10px;
 }
