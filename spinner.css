@@ -1,0 +1,27 @@
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #007bff;
+  border-top-color: transparent;
+  animation: loading-spinner 1s ease-in-out infinite;
+}
+
+@keyframes loading-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
