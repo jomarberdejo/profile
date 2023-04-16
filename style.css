@@ -414,7 +414,7 @@ footer span{
 
 .reveal.active{
   animation-name: slide-in;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0;
