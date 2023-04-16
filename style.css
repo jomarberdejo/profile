@@ -296,7 +296,8 @@ nav ul li{
 .contact{
   background-color: #404040;
   width: 540px;
-  margin: 30px auto;
+  margin: auto;
+  margin-bottom: 50px;
   max-width: 92%;
   border-radius: 4px;
   padding: 46px 30px;
