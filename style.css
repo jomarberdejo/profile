@@ -1,3 +1,4 @@
+
 /*variables*/
 
 :root{
@@ -254,11 +255,7 @@ nav ul li{
 .contact-title{
   text-align: center;
 }
-.contact-title h2{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .project-pic{
   width: 200px;
   object-fit: cover;
@@ -272,17 +269,8 @@ nav ul li{
 .projects p, h3{
   color: white;
 }
-.button{
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
-  border:#8b8eaf;
-  background-color:#4756df;
 
-}
-.button .project-link{
-  color: black;
-}
+
 .project-pic:hover{
   transform: translateY(-10px);
 }
@@ -316,7 +304,7 @@ nav ul li{
   color: white;
 }
 .contact-form .input-field{
-  width: 440px;
+  width: 30rem;
   height: 40px;
   padding: 20px;
   border-radius: 4px;
@@ -459,7 +447,9 @@ footer span{
   nav ul li {
     margin: 8px;
   }
-  
+  nav ul li:last-child{
+    margin-bottom: 20px;
+  }
   .burger-menu {
     display: block;
   }
@@ -513,7 +503,7 @@ footer span{
     max-width: 20.75rem;
   }
   .contact-form .input-field{
-    width: 389;
+    width: 20rem;
   }
   
 
@@ -548,7 +538,7 @@ footer span{
   }
 
 .contact-form .input-field{
-  width: 277px;
+  width: 17rem;
 }
 
   
