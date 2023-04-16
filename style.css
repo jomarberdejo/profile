@@ -90,17 +90,20 @@ nav ul li{
   max-width: 68.75rem;
   margin: auto;
 }
-.hero img{
-  height: 30.5rem;
-  width: 20.5rem;
-}
+
+  .hero img {
+    height: 24rem;
+    width: 24rem;
+  }
+
 .bio{
   background: transparent;
   width: 25rem;
   padding: 0.625rem;
-  border-radius: 6px;
+  border-radius: 2px;
   box-shadow: 0px 2px 5px var(--primary-shadow);
       filter: drop-shadow(3px 2px 4px #121212);
+
 }
 .bio-title{
     text-align: center;
@@ -135,8 +138,8 @@ nav ul li{
 .more-about{
   background: transparent;
   padding:  1rem 6rem;
-  color: white;
-
+  color: #fff;
+  margin-top: 2rem;
 }
 
 .more-about h2{
@@ -506,13 +509,13 @@ footer span{
 
 @media screen and (max-width: 420px) {
    .hero {
-    margin-top: -2rem;
+    margin-top: 1.8rem;
     flex-direction: column;
     gap: 0;
   }
   
   .hero img {
-    height: 29.5rem;
+    height: 20rem;
     width: 20rem;
   }
   
