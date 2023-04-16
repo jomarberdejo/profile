@@ -93,8 +93,8 @@ nav ul li{
 }
 
   .hero img {
-    height: 24rem;
-    width: 24rem;
+    height: 22rem;
+    width: 20rem;
   }
 
 .bio{
@@ -429,7 +429,7 @@ footer span{
   }
   nav ul {
     position: fixed;
-    background-color: black;
+    background-color: #000;
     flex-direction: column;
     top: 86px;
     left: 10%;
@@ -457,10 +457,6 @@ footer span{
     gap: 0;
   }
   
-  .hero img {
-    height: 37.5rem;
-    width: 30rem;
-  }
   
   .bio {
     margin-top: 4rem;
@@ -516,7 +512,7 @@ footer span{
   }
   
   .hero img {
-    height: 20rem;
+    height: 23rem;
     width: 20rem;
   }
   
