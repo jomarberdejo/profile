@@ -281,7 +281,7 @@ nav ul li{
 
 }
 .button .project-link{
-  color: black
+  color: black;
 }
 .project-pic:hover{
   transform: translateY(-10px);
