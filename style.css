@@ -1,7 +1,7 @@
 /*variables*/
 
 :root{
-  --font-family: "Roboto", sans-serif;
+  --font-family: Lato, sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -26,7 +26,6 @@ html{
 }
 body{
   background-color: black;
-
 }
 ul{
   list-style: none;
